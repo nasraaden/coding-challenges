@@ -19,3 +19,8 @@ def adjacentElementsProduct(inputArray):
             max_num = product
             print(max_num)
     return max_num
+
+
+inputArray = [3, 8, 4, 1, 9, 0]
+
+print(adjacentElementsProduct(inputArray))
