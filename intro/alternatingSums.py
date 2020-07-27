@@ -8,17 +8,14 @@ You are given an array of positive integers - the weights of the people. Return 
 def alternatingSums(a):
     team_1_sum = 0
     team_2_sum = 0
-    output_arr = []
+
     for i in range(len(a)):
         if i % 2 == 0:
             team_1_sum += a[i]
         else:
             team_2_sum += a[i]
 
-    output_arr.append(team_1_sum)
-    output_arr.append(team_2_sum)
-
-    return output_arr
+    return [team_1_sum, team_2_sum]
 
 
 a = [50, 60, 60, 45, 70]
