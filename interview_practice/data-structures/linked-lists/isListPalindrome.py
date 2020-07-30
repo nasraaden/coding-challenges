@@ -1,4 +1,6 @@
-'''Given a singly linked list of integers, determine whether or not it's a palindrome.'''
+'''
+Given a singly linked list of integers, determine whether or not it's a palindrome.
+'''
 
 # Singly-linked lists are already defined with this interface:
 # class ListNode(object):

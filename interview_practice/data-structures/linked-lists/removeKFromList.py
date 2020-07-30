@@ -1,4 +1,6 @@
-'''Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.'''
+'''
+Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
+'''
 
 # Singly-linked lists are already defined with this interface:
 # class ListNode(object):
