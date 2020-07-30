@@ -12,9 +12,8 @@ def palindromeRearranging(inputString):
         else:
             if inputString.count(char) == 1:
                 counter += 1
-    if counter > 2:
+    if counter > 1:
         return False
-
     return True
 
 
