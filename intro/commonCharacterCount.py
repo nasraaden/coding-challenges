@@ -1,3 +1,6 @@
+'''
+Given two strings, find the number of common characters between them.
+'''
 
 
 def commonCharacterCount(s1, s2):
