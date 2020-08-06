@@ -17,8 +17,8 @@ def minesweeper(matrix):
     return output_arr
 
 
-matrix: [[true, false, false],
-         [false, true, false],
-         [false, false, false]]
+matrix: [[True, False, False],
+         [False, True, False],
+         [False, False, False]]
 
 print(minesweeper(matrix))
