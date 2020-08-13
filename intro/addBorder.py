@@ -14,8 +14,3 @@ def addBorder(picture):
         string = ''.join(string)
         new_picture.append(string)
     return new_picture
-
-
-picture = ["abc", "ded"]
-
-print(addBorder(picture))

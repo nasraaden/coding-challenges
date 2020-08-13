@@ -15,8 +15,3 @@ def palindromeRearranging(inputString):
     if counter > 1:
         return False
     return True
-
-
-inputString = 'aabb'
-
-print(palindromeRearranging(inputString))

@@ -10,10 +10,3 @@ def depositProfit(deposit, rate, threshold):
         deposit += money
         counter += 1
     return counter
-
-
-deposit = 100
-rate = 20
-threshold = 170
-
-print(depositProfit(deposit, rate, threshold))

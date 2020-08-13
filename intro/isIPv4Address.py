@@ -17,8 +17,3 @@ def isIPv4Address(inputString):
         if int(inputString[i]) < 0 or int(inputString[i]) > 255:
             return False
     return True
-
-
-inputString = '172.16.254.1'
-
-print(isIPv4Address(inputString))

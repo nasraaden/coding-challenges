@@ -18,7 +18,3 @@ def avoidObstacles(inputArray):
             if inputArray[i] % distance == 0:
                 hit = True
     return distance
-
-
-inputArray = [5, 3, 6, 7, 9]
-print(avoidObstacles(inputArray))

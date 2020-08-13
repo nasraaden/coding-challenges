@@ -16,10 +16,3 @@ def growingPlant(upSpeed, downSpeed, desiredHeight):
         counter += 1
 
     return counter
-
-
-upSpeed = 100
-downSpeed = 10
-desiredHeight = 910
-
-print(growingPlant(upSpeed, downSpeed, desiredHeight))

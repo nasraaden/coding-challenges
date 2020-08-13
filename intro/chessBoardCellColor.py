@@ -17,9 +17,3 @@ def chessBoardCellColor(cell1, cell2):
     total1 = board[cell1[0]] + int(cell1[1])
     total2 = board[cell2[0]] + int(cell2[1])
     return total1 % 2 == total2 % 2
-
-
-cell1 = "A1"
-cell2 = "C3"
-
-print(chessBoardCellColor(cell1, cell2))

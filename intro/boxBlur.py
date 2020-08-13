@@ -23,10 +23,3 @@ def boxBlur(image):
             temp_arr.append(sum//9)
         output_arr.append(temp_arr)
     return output_arr
-
-
-image = [[1, 1, 1],
-         [1, 7, 1],
-         [1, 1, 1]]
-
-print(boxBlur(image))

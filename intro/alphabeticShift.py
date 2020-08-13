@@ -13,8 +13,3 @@ def alphabeticShift(inputString):
             index = letters.index(inputString[i])
             inputString[i] = letters[index + 1]
     return "".join(inputString)
-
-
-inputString = "crazy"
-
-print(alphabeticShift(inputString))

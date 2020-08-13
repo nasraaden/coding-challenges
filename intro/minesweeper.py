@@ -15,10 +15,3 @@ def minesweeper(matrix):
                         l += matrix[i+x][j+y]
             output_arr[i].append(l)
     return output_arr
-
-
-matrix: [[True, False, False],
-         [False, True, False],
-         [False, False, False]]
-
-print(minesweeper(matrix))

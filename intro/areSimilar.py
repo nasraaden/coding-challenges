@@ -19,9 +19,3 @@ def areSimilar(a, b):
         return False
 
     return True
-
-
-a = [1, 2, 3]
-b = [2, 1, 3]
-
-print(areSimilar(a, b))

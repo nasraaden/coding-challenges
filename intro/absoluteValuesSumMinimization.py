@@ -17,8 +17,3 @@ def absoluteValuesSumMinimization(a):
         sums.append(sum)
     min_index = sums.index(min(sums))
     return a[min_index]
-
-
-a = [2, 4, 7]
-
-print(absoluteValuesSumMinimization(a))

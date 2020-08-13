@@ -13,9 +13,3 @@ def arrayMaxConsecutiveSum(inputArray, k):
             max_sum = k_sum
 
     return max_sum
-
-
-inputArray = [2, 3, 5, 1, 6]
-k = 2
-
-print(arrayMaxConsecutiveSum(inputArray, k))

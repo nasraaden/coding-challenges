@@ -16,8 +16,3 @@ def alternatingSums(a):
             team_2_sum += a[i]
 
     return [team_1_sum, team_2_sum]
-
-
-a = [50, 60, 60, 45, 70]
-
-print(alternatingSums(a))

@@ -11,8 +11,3 @@ def allLongestStrings(inputArray):
         if string_length == max_length:
             longest.append(inputArray[i])
     return longest
-
-
-inputArray = ["enyky", "benyky", "yely", "varennyky"]
-
-print(allLongestStrings(inputArray))
