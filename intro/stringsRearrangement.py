@@ -27,8 +27,3 @@ def differByOneChar(str1, str2):
     if differ_count != 1:
         return False
     return True
-
-
-inputArray = ["aba", "bbb", "bab"]
-
-print(stringsRearrangement(inputArray))

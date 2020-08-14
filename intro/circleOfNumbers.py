@@ -10,9 +10,3 @@ def circleOfNumbers(n, firstNumber):
         return firstNumber + (n//2)
     else:
         return firstNumber - (n//2)
-
-
-n = 10
-firstNumber = 2
-
-print(circleOfNumbers(n, firstNumber))

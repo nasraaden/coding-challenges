@@ -11,8 +11,3 @@ def arrayChange(inputArray):
             counter += add
             inputArray[i+1] += add
     return counter
-
-
-inputArray = [-1000, 0, -2, 0]
-
-print(arrayChange(inputArray))

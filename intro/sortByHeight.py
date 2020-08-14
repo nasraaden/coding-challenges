@@ -15,8 +15,3 @@ def sortByHeight(a):
     for i in c:
         b.insert(i, -1)
     return b
-
-
-a = [-1, 150, 190, 170, -1, -1, 160, 180]
-
-print(sortByHeight(a))

@@ -11,11 +11,3 @@ def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
     if max(yourLeft, yourRight) == max(friendsLeft, friendsRight) and min(yourLeft, yourRight) == min(friendsLeft, friendsRight):
         return True
     return False
-
-
-yourLeft = 10
-yourRight = 15
-friendsLeft = 15
-friendsRight = 10
-
-print(areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight))

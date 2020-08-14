@@ -12,9 +12,3 @@ def commonCharacterCount(s1, s2):
             counter += 1
             s2.remove(char1)
     return counter
-
-
-s1 = "aabcc"
-s2 = "adcaa"
-
-print(commonCharacterCount(s1, s2))

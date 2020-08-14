@@ -22,8 +22,3 @@ def isLucky(n):
         return True
 
     return False
-
-
-n = 1230
-
-print(isLucky(n))

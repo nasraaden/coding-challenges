@@ -21,8 +21,3 @@ def almostIncreasingSequence(sequence):
         return False
 
     return True
-
-
-sequence = [10, 1, 2, 3, 4, 5]
-
-print(almostIncreasingSequence(sequence))

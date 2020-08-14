@@ -11,8 +11,3 @@ def checkPalindrome(inputString):
         return True
     else:
         return False
-
-
-inputString = 'ababa'
-
-print(checkPalindrome(inputString))

@@ -26,8 +26,3 @@ def reverseInParentheses(inputString):
             new_string += string_list[i]
 
     return new_string
-
-
-inputString = "foo(bar)baz(blim)"
-
-print(reverseInParentheses(inputString))

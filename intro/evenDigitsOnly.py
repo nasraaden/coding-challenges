@@ -9,8 +9,3 @@ def evenDigitsOnly(n):
         if int(n[i]) % 2 != 0:
             return False
     return True
-
-
-n = 248622
-
-print(evenDigitsOnly(n))

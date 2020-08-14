@@ -5,8 +5,3 @@ Given a year, return the century it is in. The first century spans from the year
 
 def centuryFromYear(year):
     return ((year-1)//100) + 1
-
-
-year = 1920
-
-print(centuryFromYear(year))

@@ -8,8 +8,3 @@ def arrayMaximalAdjacentDifference(inputArray):
     for i in range(len(inputArray) - 1):
         difference.append(abs(inputArray[i] - inputArray[i+1]))
     return max(difference)
-
-
-inputArray = [2, 4, 1, 0]
-
-print(arrayMaximalAdjacentDifference(inputArray))
