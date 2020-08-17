@@ -3,3 +3,12 @@ A string is said to be beautiful if each letter in the string appears at most as
 
 Given a string, check whether it is beautiful.
 '''
+
+
+def isBeautifulString(inputString):
+    letters = "abcdefghijklmnopqrstuvwxyz"
+    for i in range(1, len(letters)):
+        if inputString.count(letters[i-1]) >= inputString.count(letters[i]):
+            continue
+        return False
+    return True
