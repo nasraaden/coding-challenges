@@ -2,7 +2,7 @@
 
 // A defanged IP address replaces every period "." with "[.]".
 
-var defangIPaddr = function (address) {
+function defangIPaddr(address) {
   let newAddress = address.split(".");
   return newAddress.join("[.]");
-};
+}
